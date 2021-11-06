@@ -17,8 +17,10 @@
 	Database table name: FeatureTable
 	Columns: Email (string), Feature1(bit)
 	Subsequently we can add more columns, where each column becomes one feature, the bit value in the column basically means the enablement of the feature for the user (email). For instance, table below shows the user do not have access to Feature1 due to value 0:
+
 | Email                                    | Feature1   |
 | prasad130495@gmail.com |              0   |
+
 2. All SQL information alteration and insertion can be found in sql.txt in this repository.
 
 ### Creation of db.php for database access.
