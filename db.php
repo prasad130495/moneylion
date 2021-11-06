@@ -4,7 +4,7 @@ if(!defined('PrasadDirectAccessRestriction')) {
 }
 $servername = "localhost";
 $username = "prasadde_moneylionuser";
-$password = "HqgNLjPWjQ_R";
+$password = "";
 $dbname = "prasadde_moneylion";
 
 // Create connection
