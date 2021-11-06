@@ -39,8 +39,31 @@ You may use online REST API testing tools such as the following:
 https://reqbin.com/
 
 	
-	
-	
-	
+#### GET Request Example:
+https://prasaddev.com/moneylion/feature.php?email=prasad130495@gmail.com&&featureName=Feature1
+![image](https://user-images.githubusercontent.com/34993717/140591003-3933019f-803b-4bdf-bbdd-c63e12a6ddd9.png)
+
+
+#### POST Request Example:
+https://prasaddev.com/moneylion/feature.php
+
+{
+"FeatureName": "Feature1",
+"email":"prasad130495@gmail.com",
+"enable":"true"
+}
+
+![image](https://user-images.githubusercontent.com/34993717/140591035-62c8af77-702a-4a38-ab45-8c0b2c1579a9.png)
+
+#### POST Request if input is not valid:
+
+{
+"FeatureName": "",
+"email":"prasad130495@gmail.com",
+"enable":""
+}
+
+![image](https://user-images.githubusercontent.com/34993717/140591055-baaac3e4-2a2a-45ad-831c-e41efcec95ea.png)
+
 	
 	
